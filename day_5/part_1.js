@@ -1,12 +1,8 @@
-const { cp } = require("fs");
-const { resolve } = require("path");
-
 const input = require("fs").readFileSync("data.txt").toString();
 
 const formatData = (rawData) => {
   return rawData.split("\r\n");
 };
-
 
 const buildSchemaFromData = (data) => {
   const schema = [[],[],[],[],[],[],[],[],[]]
