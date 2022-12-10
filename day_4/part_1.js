@@ -1,5 +1,3 @@
-const { resolve } = require("path");
-
 const input = require("fs").readFileSync("data.txt").toString();
 
 const formatData = (rawData) => {
